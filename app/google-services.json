@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "896411510790",
+    "firebase_url": "https://proyectorider.firebaseio.com",
+    "project_id": "proyectorider",
+    "storage_bucket": "proyectorider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896411510790:android:19ce36be7ea4c280",
+        "android_client_info": {
+          "package_name": "com.strongvilledev.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896411510790-r38knfd2d32r9lv533p9diiphpnbthv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgQ8bO0oRlLN62RUq79IKbigjI3d8sIcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/origenT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Desde: " />
+
+    <TextView
+        android:id="@+id/origen"
+        android:textAlignment="textEnd"
+        android:layout_toEndOf="@id/origenT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pollo Feliz" />
+
+    <TextView
+        android:id="@+id/destinoT"
+        android:layout_below="@id/origenT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Hasta: " />
+
+    <TextView
+        android:id="@+id/destino"
+        android:textAlignment="textEnd"
+        android:layout_toEndOf="@id/destinoT"
+        android:layout_below="@id/origen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palacio de los Deportes" />
+
+    <TextView
+        android:id="@+id/velocidadT"
+        android:layout_below="@id/destinoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Velocidad: " />
+
+    <TextView
+        android:id="@+id/velocidad"
+        android:textAlignment="textEnd"
+        android:layout_toEndOf="@id/velocidadT"
+        android:layout_below="@id/destino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal" />
+
+</RelativeLayout>

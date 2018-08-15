@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Proyecto Rider</string>
+    <string name="app_icon">Rider</string>
+    <string name="title_activity_login">@string/app_name</string>
+    <string name="title_activity_rutas">Lista de rutas</string>
+    <string name="title_activity_nuevaruta">Crear nueva ruta</string>
+    <string name="title_activity_recorrido">Tu recorrido</string>
+
+    <string name="login_subtitulo">Regístrate para poder usar esta aplicación.\nInicia sesión para ver tus rutas.</string>
+    <string name="login_email">Correo electrónico:</string>
+    <string name="login_password">Contraseña:</string>
+    <string name="login_iniciar">Iniciar sesión</string>
+    <string name="login_registrarse">Registrarse</string>
+    <string name="login_copyright">© 2018, Villafuerte Arredondo Guillermo</string>
+
+    <string name="rutas_bienvenido">¡Hola, %s!\n\nA continuación se muestran las rutas previamente recorridas con la aplicación. Para agregar una ruta, haz clic en el botón de abajo.</string>
+    <string name="rutas_logout">Cerrar sesión</string>
+    <string name="nuevaruta_direccionnosel">(No se ha seleccionado)</string>
+    <string name="nuevaruta_elegirlugar">Elegir</string>
+
+    <string-array name="nuevaruta_velocidad">
+        <item>Lenta</item>
+        <item>Normal</item>
+        <item>Rápida</item>
+    </string-array>
+</resources>
