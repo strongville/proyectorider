@@ -94,10 +94,6 @@ public class NuevaRutaActivity extends AppCompatActivity {
                     mDestino = seleccion.getLatLng();
                     textoDestino.setText(nombreODireccion(seleccion));
                 }
-
-                if (mOrigen != null && mDestino != null) {
-                    buscarRutas.setEnabled(true);
-                }
             }
         }
     }
@@ -141,9 +137,8 @@ public class NuevaRutaActivity extends AppCompatActivity {
 
 
             } catch (Exception e) {
-                Log.e("diplo", "Error " + e.toString());
+                Log.e("NuevaRutaActivity[ASY]", "Error " + e.toString());
             }
-            //return imagenDescargada;
             return null;
         }
 
